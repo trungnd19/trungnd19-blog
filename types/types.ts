@@ -4,3 +4,10 @@ export interface GithubRepo {
   html_url?: string;
   id: string;
 }
+
+export interface Post {
+  _path: string;
+  title: string;
+  publishedAt: string;
+  displayDate: boolean;
+}

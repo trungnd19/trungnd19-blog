@@ -1,6 +1,7 @@
-<template>This is About page</template>
-<script setup lang="ts">
-useHead({
-  title: "About",
-});
-</script>
+<template>
+  <div>
+    <article class="prose dark:prose-invert">
+      <ContentDoc path="/about" />
+    </article>
+  </div>
+</template>

@@ -11,6 +11,9 @@
         <NuxtLink to="/projects" class="link">Projects</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/blog" class="link">Blog</NuxtLink>
+      </li>
+      <li>
         <ClientOnly>
           <ColorModeSelector />
         </ClientOnly>
