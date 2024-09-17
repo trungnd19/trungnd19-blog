@@ -1,30 +1,32 @@
 <template>
-  <h2 class="text-2xl font-semibold mb-10">Blogs list</h2>
-  <section class="font-mono">
-    <div class="column text-gray-400 text-sm">
-      <div>date</div>
-      <div>title</div>
-    </div>
+  <div>
+    <h2 class="text-2xl font-semibold mb-10">Blogs list</h2>
+    <section class="font-mono">
+      <div class="column text-gray-400 text-sm">
+        <div>date</div>
+        <div>title</div>
+      </div>
 
-    <ul>
-      <li v-for="post in posts" :key="post._path">
-        <NuxtLink
-          :to="post._path"
-          class="column hover:bg-gray-100 dark:hover:bg-gray-800"
-        >
-          <div
-            :class="{
-              'opacity-0': !post.displayDate,
-              'opacity-1': post.displayDate,
-            }"
+      <ul>
+        <li v-for="post in posts" :key="post._path">
+          <NuxtLink
+            :to="post._path"
+            class="column hover:bg-gray-100 dark:hover:bg-gray-800"
           >
-            {{ new Date(post.publishedAt).getFullYear() }}
-          </div>
-          <div>{{ post.title }}</div>
-        </NuxtLink>
-      </li>
-    </ul>
-  </section>
+            <div
+              :class="{
+                'opacity-0': !post.displayDate,
+                'opacity-1': post.displayDate,
+              }"
+            >
+              {{ new Date(post.publishedAt).getFullYear() }}
+            </div>
+            <div>{{ post.title }}</div>
+          </NuxtLink>
+        </li>
+      </ul>
+    </section>
+  </div>
 </template>
 
 <script setup lang="ts">
