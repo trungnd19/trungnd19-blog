@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-2 items-center">
+  <div class="flex space-x-2 items-center text-4xl md:text-base">
     <!-- <div class="text-gray-500 text-xs" v-if="showNextModelLabel">
       Change to {{ nextMode }}
     </div> -->

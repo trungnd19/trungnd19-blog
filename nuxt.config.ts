@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: {
-        default: "min-light",
+        default: "vitesse-light",
         dark: "min-dark",
       },
     },
@@ -18,6 +18,11 @@ export default defineNuxtConfig({
     pageTransition: {
       name: "page",
       mode: "out-in",
+    },
+  },
+  nitro: {
+    prerender: {
+      routes: ["/sitemap.xml"],
     },
   },
 });

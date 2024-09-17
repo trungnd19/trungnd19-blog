@@ -34,6 +34,7 @@ import type { Post } from "~/types/types";
 
 const { data } = await useAsyncData("blog-list", () =>
   queryContent("/blog")
+    .where({ draft: false }) // Filter only draft posts
     .only(["_path", "title", "publishedAt"])
     .sort({ publishedAt: -1 })
     .find()

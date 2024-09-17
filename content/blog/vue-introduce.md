@@ -1,4 +1,5 @@
 ---
+draft: true
 toc: true
 publishedAt: 2024-07-12
 description: A beginner's guide to getting started with Vue 3.

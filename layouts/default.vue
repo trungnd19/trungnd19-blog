@@ -1,14 +1,14 @@
 <template>
-  <div class="container mx-auto max-w-4xl">
-    <header class="flex justify-between items-center mt-5">
+  <div class="container mx-auto max-w-4xl p-4">
+    <header class="flex md:justify-between items-start md:items-center mt-5">
       <div>
         <NuxtLink
           to="/"
-          class="text-xl font-semibold p-2 hover:bg-gray-200 dark:hover:bg-gray-800"
+          class="hidden md:block text-xl font-semibold p-2 hover:bg-gray-200 dark:hover:bg-gray-800"
           >trungnd19</NuxtLink
         >
       </div>
-      <div>
+      <div class="w-full md:w-auto">
         <Menu></Menu>
       </div>
     </header>

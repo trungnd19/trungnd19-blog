@@ -1,6 +1,11 @@
 <template>
-  <div>This is main page</div>
+  <div>
+    <article class="prose dark:prose-invert">
+      <ContentDoc path="/about" />
+    </article>
+  </div>
 </template>
+
 <script setup>
 useSeoMeta({
   title: "Main page",
