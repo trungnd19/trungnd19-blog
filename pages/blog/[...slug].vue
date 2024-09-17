@@ -68,4 +68,8 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.justify-text {
+  text-align: justify;
+}
+</style>

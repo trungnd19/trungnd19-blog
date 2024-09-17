@@ -1,30 +1,26 @@
 ---
 description: "meta description of the page"
+toc: false
 ---
 
-# Hello There, I'm Trung
+# Hello there, I'm Trung - a javascript developer! 🥑
 
-## About me
+## About me & this blog
 
-I'm Trung, I'm a developer 🥑.
+Welcome to my blog! **I'm Trung, a JavaScript developer** passionate about coding and lifelong learning. I created this space to document everything I've learned throughout the year, share my experiences, and translate valuable content into Vietnamese to make it more accessible to a wider audience.
 
-## What I teach on Udemy
+As a software developer with over 4 years of experience, I've had the opportunity to work in industries like business banking, health insurance, and HRM software. My primary focus is on frontend development, especially with technologies like **Vue.js and TypeScript**. I've also worked extensively with frameworks and libraries such as **SCSS, Nuxt, and Vite**, all while continuously striving to improve the quality of the products I help build.
 
-I teach mostly web development and I have courses on:
+Thanks for visiting, and I hope that you will find something valuable here.
 
-- Laravel (PHP framework)
-- Laravel & Vue & Inertia (PHP framework/JavaScript frontend framework)
-- Symfony (PHP framework)
-- NestJS (Node.js framework)
-- Nuxt 3 (JavaScript Full-stack framework)
+## My skills
 
-## What software/hardware do I use?
+- **Languages:** HTML, CSS, JavaScript, TypeScript
+- **Technologies:** Vue.js, Angular, Nuxt, NodeJS, MongoDB, SCSS, Vitest, Vite, RxJS, Micro FE
+- **Vue Ecosystems:** Vue Router, Pinia, Vuex, VueUse, Element UI, Vuetify, PrimeVue
+- **English:** TOEIC 960/990 | Japanese: N2
 
-Here's a list of everyday used software and hardware:
+## Contacts
 
-- MacBook Pro 16 2021
-- Rode NT USB microphone
-- VSCode
-- Chrome
-- ScreenFlow (Mac only)
-- Docker
+- **trungducng116@gmail.com**
+- **github.com/trungnd19**

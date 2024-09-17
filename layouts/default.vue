@@ -20,7 +20,7 @@
 </template>
 <script setup lang="ts">
 useHead({
-  titleTemplate: "%s - trungnd19",
+  titleTemplate: "trungnd19",
   link: [
     {
       rel: "preconnect",
